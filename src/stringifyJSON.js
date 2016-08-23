@@ -5,7 +5,6 @@
 
 var stringifyJSON = function(val) {
   var result = '';
-  // your code goes here
   switch (typeof val) {
     case 'number': result += stringifyNumber(val); break;
     case 'boolean': result += stringifyBoolean(val); break;
